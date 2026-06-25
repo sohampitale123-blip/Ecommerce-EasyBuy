@@ -1,0 +1,47 @@
+{
+  "orders": [
+    {
+      "shippingDetails": {
+        "name": "Yash Sarode",
+        "email": "yash@2gmail.com",
+        "phone": "9834244904",
+        "address": "Ganga Road",
+        "city": "Shahapur",
+        "state": "Himachal Pradesh",
+        "zipCode": "223232",
+        "country": "India"
+      },
+      "cartItems": [
+        {
+          "productId": 1,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 79.99,
+      "orderStatus": "placed",
+      "timestamp": "2026-06-22T19:36:35.589Z",
+      "orderNumber": "ORDP6JLC3V4K",
+      "id": 1
+    }
+  ],
+  "contacts": [
+    {
+      "name": "rakshit patil",
+      "email": "Rakshit123@gmail.com",
+      "phone": "8169447038",
+      "address": "Brahman Ali",
+      "message": "Nope",
+      "timestamp": "2026-06-22T19:37:15.380Z",
+      "id": 1
+    },
+    {
+      "name": "Ankit",
+      "email": "Ankit@gmail.com",
+      "phone": "8169447038",
+      "address": "VAsind",
+      "message": "nOpe",
+      "timestamp": "2026-06-23T07:00:05.341Z",
+      "id": 2
+    }
+  ]
+}
