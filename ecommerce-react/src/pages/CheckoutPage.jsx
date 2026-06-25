@@ -14,7 +14,7 @@ const INDIAN_STATES = [
 function CheckoutPage() {
   const { cart, setOrderNumber, clearCart } = useCartContext();
   const navigate = useNavigate();
-  const apiBaseUrl = import.meta.env.PROD ? "" : "http://localhost:3001";
+  const apiBaseUrl = "https://ecommerce-easybuy-backend.onrender.com";;
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",

@@ -14,7 +14,7 @@ function ContactPage() {
   const [submitAttempted, setSubmitAttempted] = useState(false);
 
   // Point to local server (server.js) which listens on port 3001
-  const baseUrl = `http://${window.location.hostname}:3001`;
+  const baseUrl = "https://ecommerce-easybuy-backend.onrender.com";
 
   const errors = useMemo(() => {
     const nextErrors = {};
